@@ -1,0 +1,16 @@
+.img{
+    width: 60px;
+    height: 80px;
+    background-color: black;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.relleno{
+    height: 1000px;
+    width: 100%;
+    background-color: blueviolet;
+}

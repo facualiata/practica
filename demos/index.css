@@ -1,0 +1,32 @@
+.titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: aliceblue;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    font-family: sans-serif;
+    color:azure;
+}
+
+
+body{
+    background-color: gray;
+}
+.form{
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}

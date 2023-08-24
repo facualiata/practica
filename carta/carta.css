@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(26, 26, 26);
+}
+a{
+    text-decoration: none;
+    text-shadow: none;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: gray;
+}
+
+.nav__lista{
+    width: 90px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    
+
+}
+.nav__img{
+    width: 80px;
+    height: 68px;
+}
+.nav__titulo{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 960px;
+}
+.carta{
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 5px;
+}
+.carta__titulo{
+    height: 50px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+.carta__img{
+    padding-bottom: 10px;
+    width: 85%;
+    height: 150px;
+    border-radius: 5px;
+}
+.carta__texto{
+    width: 85%;
+    height: 140px;
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+.carta__btn{
+    width: 60px;
+    background-color: black;
+    color: bisque;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.footer__cont__list{
+    list-style: none;
+    
+}
+.icons{
+    color:white;
+}
+.icons__logo{
+    width: 38px;
+    height: 38px;
+    border-radius: 26px;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.copy__titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+.copy__logo{
+    width: 10px;
+    height: 10px;
+}
+
+#sector1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+#sector2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
