@@ -7,40 +7,32 @@ body{
 }
 a{
     text-decoration: none;
-    text-shadow: none;
     color: bisque;
     font-family: cursive;
     font-weight: 800;
     font-size: x-small;
 }
-li{
+nav ul li{
     font-size: larger;
+    padding: 2px;
 }
-
-
 .nav{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     width: 100%;
     height: 120px;
     background-color: gray;
-    
+    position: fixed;   
 }
-
 .nav__lista{
-    width: 80px;
-    height: 50px;
-    display: inline;
+    width: 100px;
+    height: 120px;
+    display: flex;
     flex-direction: column;
     list-style: none;
-    align-items: center;
-    
-    
-    
-
 }
 .nav__img{
     width: 80px;
@@ -52,18 +44,19 @@ li{
     font-style: italic;
     font-weight: 900;
 }
-
 .main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 960px;
+    padding-top: 100px;
 }
 .carta{
     width: 280px;
     height: 400px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-items: center;
     align-items: center;
     background-color: gray;
@@ -95,6 +88,7 @@ li{
     max-height: 100%;
      margin-right: -100px;
      padding-right: 100px;
+     padding-bottom: 20px;
 
 } 
 .carta__btn{
@@ -104,6 +98,7 @@ li{
     font-family: cursive;
     font-style: oblique;
     font-weight: 100;
+    
     
 }
 
@@ -146,13 +141,12 @@ li{
 
 #sector1{
     display: flex;
-    flex-direction: row;
+    flex-flow: column, wrap;
     justify-content: space-evenly;
     
 }
 #sector2{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }

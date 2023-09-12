@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    display: flex;
+    
+}
+#plantilla{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        " header header "
+        " productos publicidad "
+        " servicios publicidad "
+        " footer footer ";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-row-gap: .625rem;
+    grid-column-gap: .625rem;
+    height: 100vh;
+}
+header{
+    grid-area: header;
+    background-color: gray;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+    
+
+.footer{
+    grid-area: footer;
+    background-color: gray;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#publicidad{
+    grid-area: publicidad;
+    background-color: blueviolet;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+#productos{
+    grid-area: productos;
+    background-color: yellowgreen;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#servicios{
+    grid-area: servicios;
+    background-color: indigo;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+@media screen and (max-width: 48rem){
+    body{
+        background-color: black;
+    }
+    #plantilla{
+        display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        " header header "
+        " publicidad publicidad "
+        " servicios productos "
+        " footer footer ";
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: .7fr .7fr 3fr .5fr;
+    grid-row-gap: .625rem;
+    grid-column-gap: .625rem;
+    height: 100vh;
+
+    }
+}
