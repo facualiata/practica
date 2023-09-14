@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#grid{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-areas:
+    "header  header"
+    "services  publi"
+    "products  publi"
+    "footer footer" ;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-row-gap: .5em;
+    grid-column-gap:.5em;
+}
+#header{
+    grid-area: header;
+    background-color: greenyellow;
+    display: flex;
+}
+#services{
+    grid-area: services;
+    background-color: blueviolet;
+    display: flex;
+}
+#products{
+    grid-area: products;
+    display: flex;
+    background-color: coral;
+}
+#publi{
+    grid-area: publi;
+    display: flex;
+    background-color: darkolivegreen;
+}
+#footer{
+    grid-area: footer;
+    display: flex;
+    background-color: goldenrod;
+}

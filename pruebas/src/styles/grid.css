@@ -23,12 +23,12 @@ li{
         " header header "
         " productos publicidad "
         " servicios publicidad "
-        " footer footer ";
+        " pie pie  ";
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 3fr 3fr 1fr;
     grid-row-gap: .625rem;
     grid-column-gap: .625rem;
-    height: 100vh;
+    
 }
 header{
     grid-area: header;
@@ -39,7 +39,7 @@ header{
 }
     
 
-.footer{
+#pie{
     grid-area: footer;
     background-color: gray;
     display: flex;
